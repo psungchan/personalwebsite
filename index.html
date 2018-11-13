@@ -13,63 +13,87 @@
   </head>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Sungchan Park</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown link
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Programming</a>
+              <a class="dropdown-item" href="#">Physical</a>
+              <a class="dropdown-item" href="#">Writing</a>
             </div>
           </li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
     </nav>
   </header>
   <body>
     <div class="container-fluid">
-      <div class="row">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="row-mt-3">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Projects</h1>
+            <p class="lead">These are links to collections of my favorite projects as well as links to all of my posted projects through GitHub, Imgur, and Blogger.</p>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://i.kinja-img.com/gawker-media/image/upload/s--Xyw99blF--/c_scale,f_auto,fl_progressive,q_80,w_800/meptyfltshinlrhftuxh.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Programming Projects</h5>
+              <p class="card-text">Portfolio of my favorite projects as well as recent work. Explorations into OOP, Web Dev, and Data analysis</p>
+              <a href="https://github.com/psungchan" class="btn btn-primary">Github</a>
+            </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="col-md-auto">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://static1.squarespace.com/static/52419319e4b07f248a5a3db0/t/5244e1b8e4b0aeb534dc5b6b/1380245948473/100px180/" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Physical Projects</h5>
+              <p class="card-text">Progress logs of physical projects. Explorations in woodshop and electronics (arduino, circuits, PCB).</p>
+              <a href="https://github.com/psungchan" class="btn btn-primary">Imgur</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://sg.fiverrcdn.com/photos/111345924/original/9ac2c792e6c89f8036feb5b69cd4aed0ff2ddb8a.jpg?1525551503/100px180/" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Writing Projects</h5>
+              <p class="card-text">Portfolio of my favorite writings. Book and Food reviews, Notes and reflections on research, Personal writing.</p>
+              <a href="http://psungchanthinks.blogspot.com" class="btn btn-primary">Blogger</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <h1>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </h1>
   </body>
 </html>
